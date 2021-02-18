@@ -1,0 +1,10 @@
+.place__text {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 320px) {
+    .place__text {
+        padding: 0 16px;
+    }
+}
