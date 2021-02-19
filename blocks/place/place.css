@@ -1,8 +1,12 @@
 .place {
-    padding-top: 80px;
+    padding-bottom: 80px;
     display: grid;
     grid-template-columns: 460px 1fr;
     gap: 48px 40px;
+}
+
+.place:last-of-type {
+    padding-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,7 +24,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .place {
         grid-template-columns: 320px;
         padding-top: 50px;

@@ -10,7 +10,7 @@
     line-height: 1.125;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .footer__links {
         flex-direction: column;
         padding-bottom: 48px;
