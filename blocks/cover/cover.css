@@ -5,3 +5,21 @@
     background-color:#2a2c2f;
     max-width: 1280px;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        padding: 92px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        padding: 90px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover {
+        padding: 66px 0 0 0;
+    }
+}

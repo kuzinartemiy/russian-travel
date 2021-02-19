@@ -5,3 +5,13 @@
 .footer__list-item:last-of-type {
     padding-right: 0;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__list-item{
+        padding-right: 0;
+        padding-bottom: 32px;
+    }
+    .footer__list-item:last-of-type {
+        padding-bottom: 0;
+    }
+}
