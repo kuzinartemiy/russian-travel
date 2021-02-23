@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 425px) {
     .place__text {
         padding: 0 16px;
     }

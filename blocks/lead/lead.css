@@ -9,19 +9,19 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .lead {
         padding: 56px 48px 0;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .lead {
         padding: 56px 0;
     }
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 425px) {
     .lead {
         padding: 40px 0;
     }
