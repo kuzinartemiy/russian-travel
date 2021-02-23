@@ -1,6 +1,6 @@
 .cover__background {
     box-sizing: border-box;
-    background-image: url(../../../img/dmitrii-vaccinium-22833-unsplash.jpg);
+    background-image: url(../../../images/dmitrii-vaccinium-22833-unsplash.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -11,6 +11,23 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
+}
+
+.cover__background:before {
+    background: #000000;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.3;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.cover__background:hover:before {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
