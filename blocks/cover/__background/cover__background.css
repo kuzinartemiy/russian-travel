@@ -14,7 +14,7 @@
 }
 
 .cover__background:before {
-    background: #000000;
+    background: #2A2C2F;
     content: '';
     position: absolute;
     top: 0;

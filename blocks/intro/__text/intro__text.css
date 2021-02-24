@@ -1,11 +1,11 @@
 .intro__text {
     margin: 0;
-    padding-top: 40px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     color: #ffffff;
     font-size: 16px;
     line-height: 1.625;
     max-width: 690px;
+    display: inline;
 }
 
